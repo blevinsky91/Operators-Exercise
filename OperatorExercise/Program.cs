@@ -6,6 +6,9 @@
         {
             //Console.WriteLine("Hello, World!");
             ExerciseOne();
+            Console.WriteLine("What is the radius of your circle?");
+            var radius = double.Parse(Console.ReadLine());
+
         }
 
         public static void ExerciseOne()
@@ -18,6 +21,11 @@
             {
                  Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
             }
+        }
+
+        public static double AreaOfCircle(double radius)
+        {
+            return Math.PI * radius * radius;
         }
         
     }
