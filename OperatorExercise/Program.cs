@@ -5,9 +5,12 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
+
             ExerciseOne();
+            
             Console.WriteLine("What is the radius of your circle?");
             var radius = double.Parse(Console.ReadLine());
+            Console.Write(AreaOfCircle(20));
 
         }
 
