@@ -10,7 +10,7 @@
             
             Console.WriteLine("What is the radius of your circle?");
             var radius = double.Parse(Console.ReadLine());
-            Console.Write(AreaOfCircle(20));
+            Console.Write(AreaOfCircle(radius));
 
         }
 
